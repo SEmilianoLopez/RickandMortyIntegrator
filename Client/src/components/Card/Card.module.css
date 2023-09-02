@@ -1,0 +1,26 @@
+.container{
+    background-color: rgb(95, 13, 172);
+    width: 25%;
+    padding: 1em;
+    border-radius: 2px;
+    box-shadow: 5px 10px 5px 0px rgba(15,5,5,0.75);
+    text-shadow: 3px -1px 7px rgba(67,7,7,0.6); 
+    display: flex;
+    flex-direction: column;
+}
+
+.closeButton{
+    border: 0px;
+    background-color: rgb(148,4,4);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+
+.closeButton:hover{
+    background-color: brown;
+    box-shadow: 10px 10px 5px 0px rgba(20,5,5,0.75);
+
+}
